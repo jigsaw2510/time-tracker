@@ -1,13 +1,37 @@
-* {
-	margin: 0;
-	padding: 0;
+body {
+    margin:0;
+    padding:0;
 }
 p {
+    width: 50%;
+    height: 20px;
+    padding: 10px;
+    background-color: #efefef;
+    border-radius: 5px;
+    text-align: center;
+}
+.selectField {
 	margin: 20px;
 }
-#container {
+.cnc {
 	display: flex;
-	flex-flow: wrap column;
-	justify-content: center;
-	align-content: center;
+  flex-flow: wrap column;
+  justify-content: space-around;
+  align-items: center;
+	margin: 20px;
+	width: 80%;
+	height: auto;
+	padding: 20px;
+	background-color: palegreen;
+	border-radius: 10px;
+}
+#container {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
+#run {
+    width: 50%;
+    height: 50px;
 }
